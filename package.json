@@ -1,0 +1,25 @@
+{
+  "name": "deduplicator",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-diff": "^0.5.4",
+    "lodash": "^4.17.15",
+    "yargs": "^14.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "mocha": "^6.2.1"
+  }
+}
